@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700'); */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    margin:auto ;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(241, 184, 13);
+    background-color:black;
+}
+
+.container{
+  margin: auto;
+}
+/* # About */
+
+.about-mf .box-shadow-full {
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 20px;
+}
+
+@media (min-width: 767px) {
+  .about-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.about-info{margin-top: 30%;
+  margin-left: 20px;
+
+}
+
+  
+#about{
+font-size: 17px;
+
+}
+.About{
+  font-size: 30px;
+  color:  #df8f17;
+  
+  }
+  
+  .btn{
+    margin-left: 27px;
+  }
+
+  
+  
+  /*--------------------------------------------------------------
+  # Portfolio Details  
+
+        
+  
+      
+      
+          /* Featurettes
+      ------------------------- */
+          
+      .row {
+        background-color: black;
+        margin-top: 0%;
+    
+        /* Space out the Bootstrap <hr> more */
+      }
+  
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-weight: 300;
+      }
+  
+  
+      /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+@media (min-width: 40em) {
+  
+  
+.featurette-heading {
+          font-size: 50px;
+          
+         
+}
+
+.p{
+color: #efecec;
+font-size: 10px;
+margin-top: 10rem;
+
+
+}
+}
+  
+@media (min-width: 62em) {
+ 
+        
+        
+        .typewrite{
+         color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+       font-size: 10px;
+
+text-decoration: none;
+
+}
+
+
+
+.p{
+color: #efecec;
+font-size: 10px;
+margin-left:  3rem;
+
+
+}
+}
