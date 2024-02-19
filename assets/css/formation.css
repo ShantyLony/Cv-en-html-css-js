@@ -18,7 +18,7 @@
     color: snow;
     
   
-    background-color: snow;
+    background-color: transparent;
   }
   
   .language-card {
@@ -49,7 +49,7 @@
   }
   
   .language-card-front {
-    background-color:rgb(2, 2, 8);
+    background-color:rgb(2, 2, 8) ;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -57,6 +57,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #fdfbfb;
+    text-shadow: 0 2px 5px yellow;
     box-shadow: 0 2px 5px rgba(171, 74, 4, 0.837);
 
   }
@@ -71,11 +72,19 @@
     font-size: 20px;
     font-weight: bold;
     color: #0c0c0c;
-    box-shadow: 0 2px 5px yellow;
+    box-shadow: 0 2px 2px yellow;
     z-index: 10;
     cursor: pointer;
     scale: 1.3;
     width: 330px;
+    top: -4.5em;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    background: linear-gradient(90deg, transparent,#ecb009,#ecb009, #edeceb, #edeceb, transparent);
+
+  animation: rotation_481 5000ms infinite linear;
+  
   }
     
   .petite

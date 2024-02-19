@@ -65,11 +65,13 @@ section {
 font-size: 17px;
 }
 .About{
-  font-size: 40px;
+  font-size: 40px; 
+  text-shadow: 0 2px 5px yellow;
   color:  #ecb009;
   background-color:rgb(244, 244, 242);
   font-weight: 700;
   margin-top: 5%;
+ 
   }
 .about{
     font-size: 30px;
