@@ -14,7 +14,7 @@ body {
     font-size: 12px;
     font-style: italic;
     color: rgb(202, 161, 40);
-    background: white;
+    background: rgb(246, 243, 243);
     background: linear-gradient(90deg, rgb(245, 241, 241) 0%, rgb(239, 236, 236) 35%, rgb(255, 255, 255) 100%);
 }
 
@@ -65,12 +65,19 @@ section {
 font-size: 17px;
 }
 .About{
-  font-size: 30px;
-  color:  #0b0b0b;
-  background-color:rgb(247, 247, 243);
+  font-size: 40px;
+  color:  #ecb009;
+  background-color:rgb(244, 244, 242);
   font-weight: 700;
   margin-top: 5%;
   }
+.about{
+    font-size: 30px;
+    color:  #0a0a0a;
+    background-color:rgb(247, 247, 243);
+    font-weight: 700;
+    margin-top: 5%;
+    }
   
   .btn{
     margin-left: 27px;
@@ -78,18 +85,16 @@ font-size: 17px;
 
   
   
-  /*--------------------------------------------------------------
-  # Portfolio Details  
 
         
   
+   
       
-      
-          /* Featurettes
+          /* Accueil
       ------------------------- */
           
       .row {
-        background-color: rgb(242, 242, 247);
+        background-color: rgb(235, 233, 227);
         margin-top: 10%;
     
         /* Space out the Bootstrap <hr> more */
@@ -126,22 +131,19 @@ margin-top: 10rem;
  
         
         
-        .typewrite{
-         color: aliceblue;
-        font-family: 'Times New Roman', Times, serif;
-       font-size: 10px;
+.typewrite{
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+font-size: 10px;
 
 text-decoration: none;
 
 }
 
-
-
 .p{
 color: #efecec;
 font-size: 10px;
 margin-left:  3rem;
-
 
 }
 }
