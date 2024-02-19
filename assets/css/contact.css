@@ -94,37 +94,38 @@ background-color: rgb(247, 244, 244);
 }
 
 .login-form-wrap {
+ margin-bottom: 13%;
   width: 100%;
-  height: 30vh;
-  background-image: url('https://res.cloudinary.com/dzeznhbhc/image/upload/v1686724235/samples/bgrond_21-ai_sl0fvv.png');
+  height: 50vh;
+  background-image: url('https://static.vecteezy.com/ti/vecteur-libre/p1/13787946-belle-femme-noire-femme-africaine-illustrationle-a-la-mode-gratuit-vectoriel.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-position: center;
-  background-size: cover;
+  background-size:contain;
+  background-color: #fdfdfd;
   .login-box {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       height: 100%;
+      background-color: seashel;
       .login-content-warp {
           padding: 30px;
-          background: #505050d1;
-          width: 400px;
+          width: 200px;
           display: flex;
           justify-content: center;
           flex-direction: column;
           align-items: center;
           border-radius: 35px;
-          border-top: 5px solid #dac494;}
-
+      
           .profile-form {
               display: flex;
               flex-direction: column;
               align-items: center;
 
               img {
-                  width: 135px;
+                  width: 1305px;
                   height: 135px;
                   object-fit: cover;
                   border-radius: 50%;
@@ -145,11 +146,11 @@ background-color: rgb(247, 244, 244);
               column-gap: 16px;
               padding: 10px 0px;
               img {
-                  width: 40px;
-                  height: 40px;
+                  width: 50px;
+                  height: 50px;
               }
               span {
-                  color: #eeece9;
+                  color: #ebe7e7;
                   font-size: 16px;
                   font-weight: 500;
               }
@@ -161,30 +162,7 @@ background-color: rgb(247, 244, 244);
                   text-decoration: none;
               }
           }
-          .butn-sign {
-              padding: 20px 0px;
-              width: 100%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              button {
-                  background-color: #e3d199;
-                  color: #2a2a2a;
-                  border: none;
-                  font-weight: 600;
-                  height: 40px;
-                  width: 74%;
-                  border-radius: 8px;
-                  font-size: 16px;
-                  text-transform: capitalize;
-                  border: 2px solid #d8c491;
-                  &:hover {
-                      background-color: #9e9e9e00;
-                      color: #fffcfc;
-                      border: 2px solid #d8c491;
-                      cursor: pointer;
-                      transition: 1s;
-                  }
+          
               }
           }
         
@@ -252,15 +230,15 @@ background-color: rgb(247, 244, 244);
 }
 
 .social-icon {
-  height: 46px;
-  width: 46px;
+  height: 66px;
+  width: 66px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 0.45rem;
-  color: #d7d7d7;
+  color: #0a0a0a;
   border-radius: 50%;
-  border: 1px solid #333;
+  border: 3px solid #333;
   text-decoration: none;
   font-size: 1.1rem;
   transition: 0.3s;

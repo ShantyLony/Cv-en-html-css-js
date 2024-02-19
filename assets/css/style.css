@@ -485,9 +485,9 @@ body {
    display: inline-block;
    transition: all .2s;
    position: relative;
-   background-color: #090310;
+   background-color: #0e0e0e;
    margin-left: 23rem;
-   margin-top: 65%; 
+   margin-top: 70%; 
    animation: wiggle 2s linear infinite;
   }
 
@@ -552,7 +552,9 @@ body {
   
   
   .footer{
-    background-color:#120c04;
+    background-color:#080500;
+    margin-top: 2%;
+   
     
   }
   .float{
@@ -566,8 +568,10 @@ body {
   .foot{
     display: flex;
     justify-content: center;
+    text-align: center center;
     color: #f6f0f0;
     margin: auto;
+    margin-top: 2%;
    
     font-weight: bolder;
     
