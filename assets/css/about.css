@@ -13,15 +13,31 @@ body {
     
     font-size: 12px;
     font-style: italic;
-    color: rgb(241, 184, 13);
-    background-color:black;
+    color: rgb(202, 161, 40);
+    background: white;
+    background: linear-gradient(90deg, rgb(245, 241, 241) 0%, rgb(239, 236, 236) 35%, rgb(255, 255, 255) 100%);
 }
 
 .container{
-  margin: auto;
+  margin-bottom:0%;
 }
-/* # About */
 
+section {
+ 
+  margin-top: 0%;
+  
+  background:snow;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+
+
+
+
+
+/* # About */
+ 
 .about-mf .box-shadow-full {
   padding-top: 10rem;
   padding-bottom: 4rem;
@@ -31,9 +47,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
-  margin-left: 20px;
-}
+
 
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
@@ -43,19 +57,19 @@ body {
 }
 
 .about-info{margin-top: 30%;
-  margin-left: 20px;
-
+ 
 }
 
   
 #about{
 font-size: 17px;
-
 }
 .About{
   font-size: 30px;
-  color:  #df8f17;
-  
+  color:  #0b0b0b;
+  background-color:rgb(247, 247, 243);
+  font-weight: 700;
+  margin-top: 5%;
   }
   
   .btn{
@@ -75,8 +89,8 @@ font-size: 17px;
       ------------------------- */
           
       .row {
-        background-color: black;
-        margin-top: 0%;
+        background-color: rgb(242, 242, 247);
+        margin-top: 10%;
     
         /* Space out the Bootstrap <hr> more */
       }
@@ -131,3 +145,4 @@ margin-left:  3rem;
 
 }
 }
+
